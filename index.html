@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cartoons</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+    	<div class="jumbotron">
+    		<h1 class="text-center">Cartoon Generator</h1>
+    	</div>
+
+  	  <div class="text-center" id="cartoons-view"></div>
+
+      <br>
+
+    	<form class="text-center" id="cartoons-form">
+    		<label for="cartoon-input">Add a Cartoon Show</label>
+    		<input type="text" id="cartoon-input">
+    	  <!--Button triggers new show to be added -->
+    	</form>
+      <br>
+      <div class="text-center">
+        <input id="add-cartoon" type="submit" value="Submit">
+      </div>
+      <!--
+      <button data-search="Samurai Jack">Samurai Jack</button>
+    	<button data-search="Over the Garden Wall">Over the Garden Wall</button>
+    	<button data-search="Dragon Ball Z">Dragon Ball Z</button>
+    	<button data-search="Invader Zim">Invader Zim</button>
+    	<button data-search="Family Guy">Family Guy</button>
+    	<button data-search="Bob's Burgers">Bob's Burgers</button>
+      -->
+  	<div id ="allGifs"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/javascript.js"></script>
+</body>
+</html>

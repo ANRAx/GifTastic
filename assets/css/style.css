@@ -1,0 +1,47 @@
+button,
+form {
+	margin: 5px;
+}
+
+ button {
+  color: darkorange;
+}
+
+body {
+  background: black;
+}
+.jumbotron {
+	font-weight: bold;
+	background-color: black;
+	color: darkorange;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-top: 2px;
+	padding-bottom: 2px;
+  border: solid 1px orange;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+	background-color: black;
+	border: solid 1px orange;
+	color: darkorange;
+}
+
+input{
+	background-color: darkgray ;
+}
+
+
+/*updates gif photo to show left to right versus just vertical */
+.item {
+	padding: 10px;
+	display: inline-block;
+  text-align: center;
+}
+
+p{
+	background-color: #563d7c;
+	color: #cdbfe3;
+	padding: 0px;
+}
